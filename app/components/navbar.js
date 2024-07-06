@@ -24,8 +24,8 @@ export default function Navbar() {
           For Projects
         </Link>
       </div>
-      <div className="w-1/3">
-        <button className="flex items-center justify-around  bg-[#181818] pl-4 pr-24 py-2 rounded-full">
+      <div className="w-4/3">
+        <button className="flex items-center justify-around  bg-[#181818] pl-4 pr-20 py-2 rounded-full">
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
