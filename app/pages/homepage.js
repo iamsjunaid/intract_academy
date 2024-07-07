@@ -28,7 +28,7 @@ const Home = () => {
             Join them and{" "}
             <span className="text-white">learn how to earn crypto!</span>
           </p>
-          <button className="bg-secondary text-white px-12 py-[8px] rounded flex justify-around items-center">
+          <button className="bg-tertiary text-white px-12 py-[8px] rounded flex justify-around items-center">
             <span className="text-sm mr-2">Get Started</span>
             <span>
               <svg
