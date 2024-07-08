@@ -1,8 +1,9 @@
 import Image from "next/image";
+import RewardInfo from "./rewardInfo";
 
 function CommunityCard() {
   return (
-    <div className="absolute top-[110rem] right-[34rem] bg-secondary text-white rounded-lg p-4 shadow-lg w-74 text-sm flex flex-col gap-2">
+    <div className="absolute top-[110rem] right-[34rem] bg-secondary text-white rounded-lg px-4 py-8 shadow-lg  w-[18rem] text-sm flex flex-col gap-4">
       <Image
         src="/images/community.gif"
         alt="community"
@@ -30,7 +31,7 @@ function CommunityCard() {
           />
         </svg>
       </div>
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center w-full">
         <p className="text-xs">Complete at least 1 Alpha Hub quest today</p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +48,27 @@ function CommunityCard() {
           />
         </svg>
       </div>
-      <button>Claim</button>
+      <div className=" w-full text-center text-gray-400">
+        <button className="flex justify-around items-center mx-auto w-60 px-16 py-2 rounded-md border border-gray-400 bg-secondary">
+          Claim Now
+          <span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="size-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
     </div>
   );
 }
