@@ -4,6 +4,7 @@ import HomePage from "./pages/homepage";
 import CTA from "./pages/cta";
 import Projects from "./pages/projects";
 import Dictionary from "./pages/dictionary";
+import Footer from "./pages/footer";
 
 export default function Page() {
   return (
@@ -13,6 +14,7 @@ export default function Page() {
       <CTA />
       <Projects />
       <Dictionary />
+      <Footer />
     </div>
   );
 }
