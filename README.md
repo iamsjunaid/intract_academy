@@ -28,37 +28,45 @@ To get a local copy up and running, follow these steps.
 
 1. **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/iamsjunaid/interact_academy.git
-    cd interact_academy
-    ```
+   ```bash
+   git clone https://github.com/iamsjunaid/interact_academy.git
+   cd interact_academy
+   ```
 
 2. **Install dependencies:**
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
-    or
+   or
 
-    ```bash
-    yarn install
-    ```
+   ```bash
+   yarn install
+   ```
 
 3. **Run the development server:**
 
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm run dev
+   ```
 
-    or
+   or
 
-    ```bash
-    yarn dev
-    ```
+   ```bash
+   yarn dev
+   ```
 
 4. **Open your browser and navigate to:**
 
-    ```
-    http://localhost:3000
-    ```
+   ```
+   http://localhost:3000
+   ```
+
+## Usage
+
+You can use this project to display the details of the Interact Academy.
+
+## Live Demo
+
+You can view a live demo of this project [here](https://intract-academy-h2ud022ko-junaid-syeds-projects.vercel.app).
