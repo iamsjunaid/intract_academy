@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="sticky top-0 w-full flex items-center justify-between px-8 h-16 backdrop-filter backdrop-blur-lg bg-opacity-30 text-gray-400 border-b border-gray-400">
+    <nav className="z-20 sticky top-0 w-full flex items-center justify-between px-8 h-16 backdrop-filter backdrop-blur-lg bg-opacity-30 text-gray-400 border-b border-gray-400">
       <div>
         <Image src="images/logo.svg" alt="logo" width={100} height={100} />
       </div>
@@ -24,8 +24,8 @@ export default function Navbar() {
           For Projects
         </Link>
       </div>
-      <div className="w-1/3">
-        <button className="flex items-center justify-around  bg-[#181818] pl-4 pr-24 py-2 rounded-full">
+      <div className="w-4/3">
+        <button className="flex items-center justify-around  bg-[#181818] pl-4 pr-20 py-2 rounded-full">
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -46,8 +46,8 @@ export default function Navbar() {
         </button>
       </div>
       <div className="w-32 flex items-center justify-around">
-        <button className="rounded-full p-2 border-2 border-[#ee8221]">
-            <Image src='./images/tv_btn.svg' width={16} height={16} alt="icon"></Image>
+        <button className="rounded-full p-2 border border-[#ee8221]">
+            <Image src='./images/tv-btn.svg' width={16} height={16} alt="icon"></Image>
         </button>
         <button className="bg-white px-2 py-1 text-gray-950 rounded-sm text-sm font-semibold">Sign In</button>
       </div>

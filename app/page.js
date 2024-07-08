@@ -1,11 +1,16 @@
 import Navbar from "./components/navbar";
+import HomePage from "./pages/homepage";
 ("./components/Navbar");
+import CTA from "./pages/cta";
+import Projects from "./pages/projects";
 
 export default function Page() {
   return (
-    <div className="bg-primary h-96">
+    <div className="bg-primary">
       <Navbar />
-      <h1 className="text-white">My page</h1>
+      <HomePage />
+      <CTA />
+      <Projects />
     </div>
   );
 }
