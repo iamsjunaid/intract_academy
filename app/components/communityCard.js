@@ -9,6 +9,7 @@ function CommunityCard() {
         alt="community"
         width={300}
         height={800}
+        unoptimized={true}
       ></Image>
       <div className="flex justify-between items-between">
         <p className="">Exclusive Community</p>
