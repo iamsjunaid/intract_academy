@@ -13,7 +13,7 @@ export default function CTA() {
   const vertCards = vertCardsData;
 
   return (
-    <main className="relative h-[600vh] w-full">
+    <main className="relative h-[400vh] w-full border-b-white">
       <div className="absolute inset-0">
         {horiCards.map((card) => (
           <CardItem key={card.id} card={card} />
@@ -29,11 +29,12 @@ export default function CTA() {
       </div>
       <CountdownCard />
       <CommunityCard />
-      <div className="w-full border-red-400 absolute left-24">
+      <div className="w-full absolute top-[126rem] left-[38rem] ">
         <Image
-          src="/images/reward_info_path.png"
+          src="/images/reward-info-path.svg"
           alt="reward_info_path"
-          fill
+          width={450}
+          height={400}
         ></Image>
       </div>
       <RewardInfo />
