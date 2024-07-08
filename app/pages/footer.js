@@ -1,11 +1,11 @@
 import links from "../../lib/links";
 import Link from "../components/link";
-import icons from "../../lib/icons";
-import Icon from "../components/icon";
+// import icons from "../../lib/icons";
+// import Icon from "../components/icon";
 
 function Footer() {
   const linksData = links;
-  const iconsData = icons;
+  //   const iconsData = icons;
 
   return (
     <footer className="text-white text-left p-8 divide-y divide-white">
@@ -55,9 +55,10 @@ function Footer() {
           </p>
         </div>
         <div className="flex gap-4">
-          {iconsData.map((icon) => (
-            <Icon key={icon.name} icon={icon} />
-          ))}
+          <i className="bi bi-twitter text-blue-500 text-2xl bg-secondary rounded-md p-2"></i>
+          <i className="bi bi-discord text-indigo-500 text-2xl bg-secondary rounded-md p-2"></i>
+          <i className="bi bi-telegram text-blue-400 text-2xl bg-secondary rounded-md p-2"></i>
+          <i className="bi bi-spotify text-green-500 text-2xl bg-secondary rounded-md p-2"></i>
         </div>
       </div>
     </footer>
