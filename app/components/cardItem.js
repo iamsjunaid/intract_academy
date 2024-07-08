@@ -1,11 +1,10 @@
 import Image from "next/image";
 
 const CardItem = ({ card }) => {
-  console.log(card.title);
   return (
     <div
       className={`w-[38rem] p-8 z-10 backdrop-filter backdrop-blur-sm bg-opacity-30 rounded-lg flex items-center text-gray-950 bg-secondary text-md ${
-        card.id === 1 ? "absolute top-0 left-16" : "absolute bottom-[100rem] right-[22rem]"
+        card.id === 1 ? "absolute top-0 left-16" : "absolute top-[45rem] left-[28rem]"
       }`}
     >
       <div className="w-1/3 rounded-lg">
