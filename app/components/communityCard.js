@@ -3,7 +3,7 @@ import RewardInfo from "./rewardInfo";
 
 function CommunityCard() {
   return (
-    <div className="absolute top-[110rem] right-[34rem] bg-secondary text-white rounded-lg px-4 py-8 shadow-lg  w-[18rem] text-sm flex flex-col gap-4">
+    <div className="z-10 absolute top-[110rem] right-[34rem] bg-secondary text-white rounded-lg px-4 py-8 shadow-lg  w-[18rem] text-sm flex flex-col gap-4 border">
       <Image
         src="/images/community.gif"
         alt="community"
